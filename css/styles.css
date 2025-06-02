@@ -38,19 +38,19 @@ img{
 }
 
 .bg-1{
-    background-color: #a76e39;
+    background-color: #166534; /* Dark forest green */
 }
 
 .bg-2{
-    background-color: #3e4095;
+    background-color: #16a34a; /* Medium green */
 }
 
 .bg-3{
-    background-color: #f5f5f5;
+    background-color: #f0fdf4; /* Very light green background */
 }
 
 .bg-4 {
-    background-color: #000000;
+    background-color: #064e3b; /* Very dark green for footer bottom */
 }
 
 .bg-5 {
@@ -140,7 +140,7 @@ img.border-cre{
 }
 
 .cta-button {
-    background-color: #a76e39;
+    background-color: #22c55e; /* Bright green buttons */
     color: #ffffff;
     padding: 12px 10px;
     border: none;
@@ -236,7 +236,7 @@ a.w-chat {
 .header{
     position: sticky;
     top: 0;
-    background-color: #151a40;
+    background-color: #166534; /* Dark green header */
     padding: 5px 0px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -270,7 +270,7 @@ a.w-chat {
 }
 
 .header .menu a.active {
-    color: #c7ae85;
+    color: #4ade80; /* Light green for active menu */
     font-weight: 600;
 }
 
@@ -410,7 +410,7 @@ a.cta-button{
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #151a40;
+    color: #16a34a; /* Medium green for subheadings */
     position: relative;
     padding-left: 20px;
     text-transform: uppercase;
@@ -421,7 +421,7 @@ a.cta-button{
     content: "";
     width: 10px;
     height: 10px;
-    background-color: #151a40;
+    background-color: #16a34a; /* Medium green for dot */
     margin: 8px 0px;
     left: 0;
     display: inline-block;
@@ -576,7 +576,7 @@ button[type="submit"]:hover {
 .about-us::before{
     content: "";
     background-color: transparent;
-    background-size: ;
+    /* background-size: ; */
 }
 
 .about-us .row{
@@ -725,7 +725,7 @@ img.about-us-inner-img{
 
 
 .services-box .content {
-    background-color: #151a40;
+    background-color: #166534; /* Dark green background for service boxes */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -760,7 +760,7 @@ img.about-us-inner-img{
     text-align: center;
     display: inline-block;
     padding: 8px 12px;
-    background-color: #a76e39;
+    background-color: #22c55e; /* Bright green buttons */
     border-radius: 20px;
     font-family: "Montserrat", sans-serif;
 }
@@ -1459,7 +1459,7 @@ rgba(0, 0, 0, .3);
 /* Footer */
 
 footer {
-    background-color: #151a40;
+    background-color: #166534; /* Change from #151a40 to dark forest green */
     padding: 40px 0px 0px 0px;
 }
 
@@ -1479,7 +1479,7 @@ footer {
     display: block;
     width: 10%;
     height: 2px;
-    background-color: #a76e39;
+    background-color: #22c55e; /* Change from #a76e39 to bright green */
     margin: 8px 0px;
 }
 
@@ -1506,7 +1506,7 @@ footer ul.quick-link li::before{
     font-family: "FontAwesome";
     position: absolute;
     left: 0px;
-    color: #a76e39;
+    color: #16a34a; /* Change from #a76e39 to medium green */
 }
 
 footer ul.quick-link li:last-child{
@@ -1541,7 +1541,7 @@ footer ul.quick-link li a {
     left: 0px;
     width: 40px;
     height: 40px;
-    background-color: #a76e39;
+    background-color: #16a34a; /* Change from #a76e39 to medium green */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1585,7 +1585,7 @@ footer ul.social-links {
 }
 
 footer ul.social-links li a {
-    color: #a76e39;
+    color: #4ade80; /* Change from #a76e39 to light green */
 }
 
 p.copy-right{
@@ -1630,6 +1630,7 @@ p.devlop{
 
 
 .seo-links {
+    background-color: #166534;
     padding-top: 20px;
 }
 
@@ -1647,7 +1648,7 @@ p.devlop{
     display: block;
     width: 10%;
     height: 2px;
-    background-color: #16371a;
+    background-color: #16a34a; /* Change from #16371a to medium green */
     margin: 0 auto;
     margin-top: 10px;
 }
@@ -1671,7 +1672,7 @@ p.devlop{
     font-family: "FontAwesome";
     position: absolute;
     left: 0px;
-    color: #16371a;
+    color: #16a34a; /* Change from #16371a to medium green */
 }
 
 .seo-links li:last-child{
@@ -1803,8 +1804,7 @@ p.devlop{
     }
 
     .faq-form h2{
-        padding-top: 20px;
-        font-size: 20px;
+        padding-top: 20
     }
 
     .faq-form .ab_accordion_header{

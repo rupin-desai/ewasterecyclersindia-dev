@@ -1,112 +1,113 @@
 <?php
 // Function to get meta information based on the current page
-function get_meta_tags_for_page() {
+function get_meta_tags_for_page()
+{
     // Get the current file name or page
     $page = basename($_SERVER['PHP_SELF'], ".php");
 
     // Define default meta information
     $meta = [
-        'title' => 'Royal Window Fashion - Mosquito net for home | Royal window fashion',
-        'description' => 'Get the best window fashion solutions for your home or business. We offer roller blinds, roller mosquito nets, Invisible Grill for Balcony and Mosquito net for home turnkey contracting services.',
-        'keywords' => '',
-        'canonical' => 'https://yourwebsite.com/'  // Default canonical URL
+        'title' => 'E-waste Recyclers India - Sustainable Electronic Waste Management Solutions',
+        'description' => 'E-waste Recyclers India provides responsible electronic waste recycling, data destruction, and IT asset management services for businesses and individuals across India.',
+        'keywords' => 'e-waste recycling, electronic waste management, e-waste disposal, computer recycling, IT asset disposal',
+        'canonical' => 'https://ewasterecyclersindia.com/'  // Default canonical URL
     ];
 
     // Page-specific meta information
     switch ($page) {
         case 'index':
-            $meta['title'] = 'Royal Window Fashion - Mosquito net for home | Royal window fashion';
-            $meta['description'] = 'Get the best window fashion solutions for your home or business. We offer roller blinds, roller mosquito nets, Invisible Grill for Balcony and Mosquito net for home turnkey contracting services.';
-            $meta['keywords'] = 'home, website, awesome';
-            $meta['canonical'] = 'https://yourwebsite.com/index.php';  // Set canonical for index page
+            $meta['title'] = 'E-waste Recyclers India - Sustainable Electronic Waste Management Solutions';
+            $meta['description'] = 'Responsible e-waste recycling services across India. Secure data destruction, IT asset management, and corporate recycling solutions for a greener tomorrow.';
+            $meta['keywords'] = 'e-waste recycling india, electronic waste disposal, secure data destruction, IT asset management, corporate recycling programs';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/index.php';
             break;
+
         case 'about-us':
-            $meta['title'] = 'About Us - Royal Window Fashion - Mosquito net for home | Royal window fashion';
-            $meta['description'] = 'Get the best window fashion solutions for your home or business. We offer roller blinds, roller mosquito nets, Invisible Grill for Balcony and Mosquito net for home turnkey contracting services.';
-            $meta['keywords'] = 'about us, company, team';
-            $meta['canonical'] = 'https://yourwebsite.com/about-us.php';  // Set canonical for about us page
+            $meta['title'] = 'About Us - E-waste Recyclers India | Our Mission & Values';
+            $meta['description'] = 'Learn about E-waste Recyclers India\'s commitment to sustainable e-waste management, environmental responsibility, and our certified recycling processes.';
+            $meta['keywords'] = 'e-waste recycling company, about e-waste recyclers india, electronic waste management mission, sustainable e-waste solutions';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/about-us.php';
             break;
-        case 'invisible-grills-in-andheri':
-            $meta['title'] = 'Invisible Grill in Andheri For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-andheri.php';  // Set canonical for invisible grills in andheri page
+
+        case 'e-waste-collection':
+            $meta['title'] = 'E-waste Collection Services in India | Safe Electronic Disposal';
+            $meta['description'] = 'Professional e-waste collection services for businesses and individuals. We collect, transport and recycle all types of electronic waste responsibly.';
+            $meta['keywords'] = 'e-waste collection, electronic waste pickup, computer recycling service, e-waste disposal, electronics collection';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/e-waste-collection.php';
             break;
-        case 'invisible-grills-in-borivali':
-            $meta['title'] = 'Invisible Grill in Borivali For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-borivali.php';  // Set canonical for invisible grills in borivali page
+
+        case 'data-destruction':
+            $meta['title'] = 'Secure Data Destruction Services | E-waste Recyclers India';
+            $meta['description'] = 'Protect your sensitive information with our certified data destruction services. Secure wiping and physical destruction of storage media with verification certificates.';
+            $meta['keywords'] = 'secure data destruction, hard drive shredding, data wiping services, media sanitization, certified data erasure';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/data-destruction.php';
             break;
-        case 'invisible-grills-in-churchgate':
-            $meta['title'] = 'Invisible Grill in Churchgate For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-churchgate.php';  // Set canonical for invisible grills in churchgate page
+
+        case 'it-asset-management':
+            $meta['title'] = 'IT Asset Management & Disposition Services | E-waste Recyclers India';
+            $meta['description'] = 'Complete IT asset management services including inventory, value recovery, secure recycling and compliance documentation for businesses.';
+            $meta['keywords'] = 'IT asset management, ITAD services, IT equipment disposal, asset recovery services, IT lifecycle management';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/it-asset-management.php';
             break;
-        case 'invisible-grills-in-dadar':
-            $meta['title'] = 'Invisible Grill in Dadar For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-dadar.php';  // Set canonical for invisible grills in dadar page
+
+        case 'corporate-recycling':
+            $meta['title'] = 'Corporate E-waste Recycling Programs | E-waste Recyclers India';
+            $meta['description'] = 'Customized e-waste recycling programs for corporations. Meet environmental compliance requirements while showcasing your commitment to sustainability.';
+            $meta['keywords'] = 'corporate e-waste recycling, business electronic waste management, company recycling program, corporate sustainability';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/corporate-recycling.php';
             break;
-        case 'invisible-grills-in-goregaon':
-            $meta['title'] = 'Invisible Grill in Goregaon For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-goregaon.php';  // Set canonical for invisible grills in goregaon page
+
+        case 'ewaste-awareness':
+            $meta['title'] = 'E-waste Awareness & Education Programs | Environmental Responsibility';
+            $meta['description'] = 'Learn about the environmental impact of electronic waste and how proper recycling can make a difference. Educational resources for businesses and communities.';
+            $meta['keywords'] = 'e-waste awareness, electronic waste education, environmental impact of e-waste, recycling workshops';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/ewaste-awareness.php';
             break;
-        case 'invisible-grills-in-jogeshwari':
-            $meta['title'] = 'Invisible Grill in Jogeshwari For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-jogeshwari.php';  // Set canonical for invisible grills in jogeshwari page
+
+        case 'ewaste-recycling-delhi':
+            $meta['title'] = 'E-waste Recycling Services in Delhi NCR | Electronics Disposal';
+            $meta['description'] = 'Professional e-waste collection and recycling services in Delhi NCR region. Safe disposal of computers, printers, servers and all electronic equipment.';
+            $meta['keywords'] = 'e-waste recycling delhi, electronic waste management ncr, computer recycling delhi, electronics disposal';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/ewaste-recycling-delhi.php';
             break;
-        case 'invisible-grills-in-malad':
-            $meta['title'] = 'Invisible Grill in Malad For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-malad.php';  // Set canonical for invisible grills in malad page
+
+        case 'ewaste-recycling-mumbai':
+            $meta['title'] = 'E-waste Recycling Services in Mumbai | Electronics Disposal';
+            $meta['description'] = 'Comprehensive e-waste recycling and disposal services in Mumbai. Helping businesses and individuals manage electronic waste responsibly.';
+            $meta['keywords'] = 'e-waste recycling mumbai, electronic waste disposal mumbai, computer recycling services, IT asset disposal mumbai';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/ewaste-recycling-mumbai.php';
             break;
-        case 'invisible-grills-in-mumbai':
-            $meta['title'] = 'Invisible Grill in Mumbai For Balcony';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/invisible-grills-in-mumbai.php';  // Set canonical for invisible grills in mumbai page
+
+        case 'ewaste-recycling-bangalore':
+            $meta['title'] = 'E-waste Recycling Services in Bangalore | Electronics Disposal';
+            $meta['description'] = 'Environmentally responsible e-waste recycling services in Bangalore. Secure collection, data destruction and recycling of all electronic equipment.';
+            $meta['keywords'] = 'e-waste recycling bangalore, electronic waste management bangalore, IT equipment recycling, computer disposal bangalore';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/ewaste-recycling-bangalore.php';
             break;
-        case 'mosquito-nets-for-windows-in-mumbai':
-            $meta['title'] = 'Mosquito Net for Windows in Mumbai, Thane & Navi Mumbai';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/mosquito-nets-for-windows-in-mumbai.php';  // Set canonical for mosquito nets for windows in mumbai page
+
+        case 'contact-us':
+            $meta['title'] = 'Contact E-waste Recyclers India | Request a Quote';
+            $meta['description'] = 'Get in touch with our e-waste recycling experts. Request a quote for e-waste collection, data destruction, or IT asset management services.';
+            $meta['keywords'] = 'contact e-waste recyclers, e-waste collection quote, electronic recycling services contact, e-waste management inquiry';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/contact-us.php';
             break;
-        case 'pleated-mosquito-nets-in-mumbai':
-            $meta['title'] = 'Pleated Mosquito Net Mumbai, Thane & Navi Mumbai';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/pleated-mosquito-nets-in-mumbai.php';  // Set canonical for pleated mosquito nets in mumbai page
+
+        case 'videos':
+            $meta['title'] = 'E-waste Recycling Videos | Recycling Process & Facility Tours';
+            $meta['description'] = 'Watch videos about our e-waste recycling processes, facility tours, and educational content about responsible electronic waste management.';
+            $meta['keywords'] = 'e-waste recycling videos, electronic waste processing, recycling facility tour, e-waste educational videos';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/videos.php';
             break;
-        case 'roller-blinds-in-mumbai':
-            $meta['title'] = 'Roller Blinds Manufacturers & Supplier in Mumbai';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/roller-blinds-in-mumbai.php';  // Set canonical for roller blinds in mumbai page
+
+        case 'images':
+            $meta['title'] = 'E-waste Recycling Facility & Process Images | E-waste Recyclers India';
+            $meta['description'] = 'View photos of our e-waste recycling facility, team, and processes. See how we responsibly handle electronic waste from collection to recycling.';
+            $meta['keywords'] = 'e-waste recycling images, electronic waste management photos, recycling facility pictures, e-waste processing images';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/images.php';
             break;
-        case 'bird-netting-services-in-mumbai':
-            $meta['title'] = 'Bird Netting Services in Mumbai | Pigeon Net Services in Mumbai';
-            $meta['description'] = '';
-            $meta['keywords'] = '';
-            $meta['canonical'] = 'https://www.shraddhawindowfashion.com/bird-netting-services-in-mumbai.php';  // Set canonical for bird netting services in mumbai page
-            break;
-        case 'contact':
-            $meta['title'] = 'Contact Us - Royal Window Fashion - Mosquito net for home | Royal window fashion';
-            $meta['description'] = 'Get in touch with us for inquiries and support.';
-            $meta['keywords'] = 'contact, support, inquiries';
-            $meta['canonical'] = 'https://yourwebsite.com/contact.php';  // Set canonical for contact page
-            break;
-        // Add more cases as needed for different pages
+
         default:
-            // Keep default meta or customize for other pages
+            // Keep default meta
             break;
     }
 
