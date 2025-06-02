@@ -1322,16 +1322,15 @@ a.blog-card .blog-archive-content span{
 
 
 .contact-us li:nth-child(1)::before {
-    content: "\f3c5";
+    content: "\f3ce";
+    
 }
 
 .contact-us li:nth-child(2)::before {
-    content: "\f3ce";
-}
-
-.contact-us li:nth-child(3)::before {
     content: "\f0e0";
 }
+
+
 
 .services-inner-page h4 {
     font-family: "Montserrat", sans-serif;
