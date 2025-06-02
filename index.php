@@ -23,7 +23,16 @@
          <div class="row m-0">
             <div class="col-9 p-0">
                <div class="hero-slider">
-                  <div><img src="img/slider/ewaste-slider-1.jpg" alt="E-waste Recycling"></div>
+                  <!-- Updated with Unsplash image of circuit boards -->
+                  <div><img
+                        src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="E-waste Circuit Board Recycling"></div>
+                  <div><img
+                        src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="E-waste Circuit Board Recycling"></div>
+                  <div><img
+                        src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="E-waste Circuit Board Recycling"></div>
                </div>
             </div>
             <div class="col-3">
@@ -46,6 +55,12 @@
                         <option value="IT Asset Management">IT Asset Management</option>
                         <option value="Corporate Recycling">Corporate Recycling</option>
                      </select>
+                  </div>
+                  <div class="form-group">
+                     <input type="text" id="location" name="location" placeholder="Your location" required>
+                  </div>
+                  <div class="form-group">
+                     <textarea id="message" name="message" placeholder="Write a message" rows="2"></textarea>
                   </div>
                   <div class="g-recaptcha" data-sitekey="6Lf3T2cqAAAAAP3rNJpj6s-rKWbPHi9Hv3YDBFyY"></div>
                   <div class="form-group">

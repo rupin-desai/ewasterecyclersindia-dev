@@ -270,10 +270,50 @@ a.w-chat {
     text-decoration: none;
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
+    transition: color 0.3s ease;
+    position: relative;
 }
 
-.header .menu a:hover{
-    color: #c7ae85;
+.header .menu a:hover {
+    color: #4ade80; /* Light green hover color */
+}
+
+/* Optional: Add underline effect on hover */
+.header .menu a:not(.dropdown-toggle)::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #4ade80;
+    transition: width 0.3s ease;
+}
+
+.header .menu a:not(.dropdown-toggle):hover::after {
+    width: 100%;
+}
+
+/* Dropdown menu hover effects */
+.menu .dropdown-menu a:hover {
+    background-color: #dcfce7; /* Very light green background */
+    color: #16a34a; /* Medium green text */
+}
+
+/* Off-canvas menu hover effects */
+.off-canvas .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.off-canvas .menu a:hover {
+    color: #4ade80; /* Light green to match theme */
+}
+
+.off-canvas .dropdown-menu a:hover {
+    background-color: #166534; /* Dark forest green */
+    color: #ffffff;
 }
 
 .header .menu a.active {
