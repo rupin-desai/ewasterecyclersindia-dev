@@ -1,3 +1,4 @@
+
 <!-- Footer -->
 <footer>
     <div class="container">
@@ -23,13 +24,7 @@
                         <a href="about-us.php">About Us</a>
                     </li>
                     <li>
-                        <a href="images.php">Images</a>
-                    </li>
-                    <li>
-                        <a href="videos.php">Videos </a>
-                    </li>
-                    <li>
-                        <a href="blogs.php">Blogs </a>
+                        <a href="how-it-works.php">How It Works</a>
                     </li>
                     <li>
                         <a href="contact-us.php">Contact us</a>

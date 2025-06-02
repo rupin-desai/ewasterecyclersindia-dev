@@ -1064,34 +1064,37 @@ img.about-us-inner-img{
 
 .ab_accordion_header {
     cursor: pointer;
-    background-color: 
-#ffffff;
-    padding: 12px;
+    background-color: #f0fdf4; /* Very light green background */
+    padding: 14px;
     font-weight: bold;
-    box-shadow: 0 0 5px 
-rgba(0, 0, 0, .3);
-    margin-top: 10px;
-    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    margin-top: 12px;
+    border-radius: 5px;
     position: relative;
     font-family: "Montserrat", sans-serif;
+    color: #166534; /* Dark forest green text */
+    border-left: 3px solid #16a34a; /* Medium green accent border */
+    transition: all 0.3s ease;
+}
+
+.ab_accordion_header:hover {
+    background-color: #dcfce7; /* Slightly darker light green on hover */
 }
 
 .ab_accordion_header.active {
-    background-color: 
-    #3e4095;
-    color: 
-#fff;
+    background-color: #16a34a; /* Medium green for active state */
+    color: #ffffff;
+    border-left: 3px solid #064e3b; /* Very dark green border when active */
 }
 
 .ab_accordion_content {
-    padding: 12px;
+    padding: 16px;
     animation: fade-in-up 0.3s ease-in-out;
-    border-left: 1px solid 
-#ededed;
-    border-right: 1px solid 
-#ededed;
-    border-bottom: 1px solid 
-#ededed;
+    border-left: 1px solid #dcfce7;
+    border-right: 1px solid #dcfce7;
+    border-bottom: 1px solid #dcfce7;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
 }
 
 .ab_accordion_header i {
@@ -1100,7 +1103,9 @@ rgba(0, 0, 0, .3);
     margin-top: 2px;
     position: absolute;
     right: 15px;
-    top: 13px;
+    top: 16px;
+    color: inherit;
+    transition: transform 0.3s ease;
 }
 
 .ab_accordion_header.active i {
@@ -1297,7 +1302,7 @@ a.blog-card .blog-archive-content span{
     justify-content: start;
 }
 
-.contact-us li::before {
+/* .contact-us li::before {
     content: "";
     left: 0px;
     font-family: "FontAwesome";
@@ -1312,11 +1317,9 @@ a.blog-card .blog-archive-content span{
     border-radius: 50%;
     font-size: 25px;
     color: #17371a;
-}
+} */
 
-.contact-us li:nth-child(1){
-    padding-bottom: 35px;
-}
+
 
 .contact-us li:nth-child(1)::before {
     content: "\f3c5";
@@ -1416,12 +1419,10 @@ a.blog-card .blog-archive-content span{
 
 .faq-form .ab_accordion_header {
     cursor: pointer;
-    background-color: 
-#ffffff;
+    background-color: #ffffff;
     padding: 12px;
     font-weight: bold;
-    box-shadow: 0 0 5px 
-rgba(0, 0, 0, .3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
     margin-top: 10px;
     border-radius: 3px;
     color: #17371a;
@@ -2004,5 +2005,58 @@ footer{
    .partners .col-3 {
       width: 100%;
    }
+}
+
+/* Add this to your styles.css file */
+
+.contact-info-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.contact-info-list li {
+    position: relative;
+    padding: 10px 0 10px 35px;
+    margin-bottom: 10px;
+}
+
+.contact-info-list li i {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    font-size: 18px;
+    color: #16a34a; /* Theme green color */
+}
+
+.contact-info-list li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info-list li a:hover {
+    color: #16a34a; /* Theme green color */
+    text-decoration: underline;
+}
+
+/* Form button improved styling */
+.contact-us button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #16a34a; /* Theme green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.contact-us button[type="submit"]:hover {
+    background-color: #166534; /* Darker green on hover */
 }
 

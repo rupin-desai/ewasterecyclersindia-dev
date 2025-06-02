@@ -1,14 +1,16 @@
-
 <div class="top-bar">
     <div class="container">
         <div class="row">
             <div class="col-7">
-                <p><i class="fa-solid fa-envelope"></i> Email Id : <a href="mailto:info@ewasterecyclersindia.com">info@ewasterecyclersindia.com</a> | <i class="fa-solid fa-phone"></i> Contact No. : <a href="tel:+917400055174">+91 74000 55174</a></p>
+                <p><i class="fa-solid fa-envelope"></i> Email Id : <a
+                        href="mailto:info@ewasterecyclersindia.com">info@ewasterecyclersindia.com</a> | <i
+                        class="fa-solid fa-phone"></i> Contact No. : <a href="tel:+917400055174">+91 74000 55174</a></p>
             </div>
             <div class="col-5 right">
                 <div class="call-us">
                     <span class="call">
-                        <a href="https://api.whatsapp.com/send?phone=917400055174&text=Hello%20," target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+                        <a href="https://api.whatsapp.com/send?phone=917400055174&text=Hello%20," target="_blank"><i
+                                class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
                     </span>
                 </div>
             </div>
@@ -27,6 +29,8 @@
             <a href="index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Home</a>
             <a href="about-us.php" class="<?= basename($_SERVER['PHP_SELF']) == 'about-us.php' ? 'active' : '' ?>">About
                 Us</a>
+            <a href="how-it-works.php"
+                class="<?= basename($_SERVER['PHP_SELF']) == 'how-it-works.php' ? 'active' : '' ?>">How It Works</a>
             <!-- Services Dropdown -->
             <div class="dropdown">
                 <a href="#"
@@ -59,12 +63,6 @@
                             Disposal</a></li>
                 </ul>
             </div>
-
-            <a href="images.php"
-                class="<?= basename($_SERVER['PHP_SELF']) == 'images.php' ? 'active' : '' ?>">Images</a>
-            <a href="videos.php"
-                class="<?= basename($_SERVER['PHP_SELF']) == 'videos.php' ? 'active' : '' ?>">Videos</a>
-            <a href="blogs.php" class="<?= basename($_SERVER['PHP_SELF']) == 'blogs.php' ? 'active' : '' ?>">Blogs</a>
             <a href="contact-us.php"
                 class="<?= basename($_SERVER['PHP_SELF']) == 'contact-us.php' ? 'active' : '' ?>">Contact</a>
         </nav>
@@ -79,6 +77,8 @@
         <a href="index.php" class="<?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : '' ?>">Home</a>
         <a href="about-us.php" class="<?= basename($_SERVER['PHP_SELF']) == 'about-us.php' ? 'active' : '' ?>">About
             Us</a>
+        <a href="how-it-works.php"
+            class="<?= basename($_SERVER['PHP_SELF']) == 'how-it-works.php' ? 'active' : '' ?>">How It Works</a>
 
         <!-- Services with Dropdown in Off-Canvas Menu -->
         <div class="dropdown">
@@ -113,9 +113,6 @@
             </div>
         </div>
 
-        <a href="images.php" class="<?= basename($_SERVER['PHP_SELF']) == 'images.php' ? 'active' : '' ?>">Images</a>
-        <a href="videos.php" class="<?= basename($_SERVER['PHP_SELF']) == 'videos.php' ? 'active' : '' ?>">Videos</a>
-        <a href="blogs.php" class="<?= basename($_SERVER['PHP_SELF']) == 'blogs.php' ? 'active' : '' ?>">Blogs</a>
         <a href="contact-us.php"
             class="<?= basename($_SERVER['PHP_SELF']) == 'contact-us.php' ? 'active' : '' ?>">Contact Us</a>
     </div>

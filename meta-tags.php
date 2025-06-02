@@ -29,6 +29,13 @@ function get_meta_tags_for_page()
             $meta['canonical'] = 'https://ewasterecyclersindia.com/about-us.php';
             break;
 
+        case 'how-it-works':
+            $meta['title'] = 'How Our E-waste Recycling Process Works | E-waste Recyclers India';
+            $meta['description'] = 'Learn about our step-by-step e-waste recycling process, from collection and sorting to dismantling and resource recovery, ensuring environmentally responsible disposal.';
+            $meta['keywords'] = 'e-waste recycling process, electronic waste disposal steps, how e-waste recycling works, e-waste processing steps';
+            $meta['canonical'] = 'https://ewasterecyclersindia.com/how-it-works.php';
+            break;
+
         case 'e-waste-collection':
             $meta['title'] = 'E-waste Collection Services in India | Safe Electronic Disposal';
             $meta['description'] = 'Professional e-waste collection services for businesses and individuals. We collect, transport and recycle all types of electronic waste responsibly.';
@@ -90,20 +97,6 @@ function get_meta_tags_for_page()
             $meta['description'] = 'Get in touch with our e-waste recycling experts. Request a quote for e-waste collection, data destruction, or IT asset management services.';
             $meta['keywords'] = 'contact e-waste recyclers, e-waste collection quote, electronic recycling services contact, e-waste management inquiry';
             $meta['canonical'] = 'https://ewasterecyclersindia.com/contact-us.php';
-            break;
-
-        case 'videos':
-            $meta['title'] = 'E-waste Recycling Videos | Recycling Process & Facility Tours';
-            $meta['description'] = 'Watch videos about our e-waste recycling processes, facility tours, and educational content about responsible electronic waste management.';
-            $meta['keywords'] = 'e-waste recycling videos, electronic waste processing, recycling facility tour, e-waste educational videos';
-            $meta['canonical'] = 'https://ewasterecyclersindia.com/videos.php';
-            break;
-
-        case 'images':
-            $meta['title'] = 'E-waste Recycling Facility & Process Images | E-waste Recyclers India';
-            $meta['description'] = 'View photos of our e-waste recycling facility, team, and processes. See how we responsibly handle electronic waste from collection to recycling.';
-            $meta['keywords'] = 'e-waste recycling images, electronic waste management photos, recycling facility pictures, e-waste processing images';
-            $meta['canonical'] = 'https://ewasterecyclersindia.com/images.php';
             break;
 
         default:
