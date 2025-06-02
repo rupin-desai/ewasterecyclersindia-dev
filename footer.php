@@ -6,7 +6,7 @@
                 <div class="footer-heading">
                     <h4>About Us</h4>
                 </div>
-                <p>E-waste Recyclers India, established in [YEAR]. We are dedicated to responsible e-waste management
+                <p>E-waste Recyclers India, established in 2011. We are dedicated to responsible e-waste management
                     and recycling solutions, helping businesses and individuals dispose of electronic waste in an
                     environmentally friendly manner.
                 </p>
@@ -57,73 +57,14 @@
                 </div>
                 <ul>
                     <li>
-                        [YOUR ADDRESS LINE 1]
-                        [YOUR ADDRESS LINE 2]
-                        [YOUR CITY, STATE, ZIP]
+                        E-waste Recycling Service Provider<br>
+                        Regd Office : No.185, 1st Cross, 1st Main<br>
+                        Azeez Sait Industrial Estate<br>
+                        Nayandahalli, Bangalore 560 039
                     </li>
-                    <li>+91 1234567890 | 1234567891</li>
-                    <li>contact@ewasterecyclersindia.com</li>
+                    <li><a href="tel:+917400055174">+91 74000 55174</a></li>
+                    <li><a href="mailto:info@ewasterecyclersindia.com">info@ewasterecyclersindia.com</a></li>
                 </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="seo-links">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="heading">
-                        <h4>Related Searches</h4>
-                    </div>
-                </div>
-                <div class="col-4 pb-10">
-                    <ul>
-                        <li>
-                            <a href="e-waste-recycling-delhi.php">E-waste Recycling in Delhi NCR</a>
-                        </li>
-                        <li>
-                            <a href="e-waste-recycling-mumbai.php">E-waste Recycling in Mumbai</a>
-                        </li>
-                        <li>
-                            <a href="e-waste-recycling-bangalore.php">E-waste Recycling in Bangalore</a>
-                        </li>
-                        <li>
-                            <a href="e-waste-recycling-hyderabad.php">E-waste Recycling in Hyderabad</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-4 pb-10">
-                    <ul>
-                        <li>
-                            <a href="computer-recycling.php">Computer Recycling Services</a>
-                        </li>
-                        <li>
-                            <a href="corporate-it-recycling.php">Corporate IT Equipment Recycling</a>
-                        </li>
-                        <li>
-                            <a href="secure-hard-drive-destruction.php">Secure Hard Drive Destruction</a>
-                        </li>
-                        <li>
-                            <a href="electronics-disposal.php">Electronics Disposal Services</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <ul>
-                        <li>
-                            <a href="certified-data-destruction.php">Certified Data Destruction Services</a>
-                        </li>
-                        <li>
-                            <a href="it-asset-recovery.php">IT Asset Recovery Solutions</a>
-                        </li>
-                        <li>
-                            <a href="mobile-recycling.php">Mobile Phone Recycling</a>
-                        </li>
-                        <li>
-                            <a href="e-waste-pickup-services.php">E-waste Pickup Services</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </div>
@@ -147,16 +88,16 @@
 <div class="mobile-quick">
     <ul>
         <li>
-            <a href="tel:+911234567890">
+            <a href="tel:+917400055174">
                 <i class="fa fa-phone"></i> Call Now </a>
         </li>
         <li>
-            <a href="https://api.whatsapp.com/send?phone=+911234567890&text=Hello%20," target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=+917400055174&text=Hello%20," target="_blank">
                 <i class="fa-brands fa-whatsapp"></i> Chat Now </a>
         </li>
     </ul>
 </div>
-<a href="https://api.whatsapp.com/send?phone=+911234567890&text=Hello%20," class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=+917400055174&text=Hello%20," class="float" target="_blank">
     <i class="fa-brands fa-whatsapp"></i>
 </a>
 <!-- whatsapp and call end -->

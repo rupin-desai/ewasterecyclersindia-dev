@@ -1415,6 +1415,7 @@ a.blog-card .blog-archive-content span{
 rgba(0, 0, 0, .3);
     margin-top: 10px;
     border-radius: 3px;
+    color: #17371a;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -1890,5 +1891,65 @@ footer{
         color: #ffffff;
         text-decoration: none;
       }
+}
+
+/* Add this to your existing CSS */
+.top-bar p a {
+    color: #166534; /* Dark forest green to match theme */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-bar p a:hover {
+    color: #16a34a; /* Medium green on hover */
+    text-decoration: underline;
+}
+
+/* Footer email and phone links styling */
+.contact-us-footer ul li a {
+    color: #fff; /* Light green to stand out against dark background */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+}
+
+.contact-us-footer ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Add hover effect with bottom border animation */
+
+
+.contact-us-footer ul li a:hover::after {
+    width: 100%;
+} */
+
+/* Phone and email icon styling */
+.contact-us-footer ul li:nth-child(2) a::before {
+    content: '\f095'; /* Phone icon */
+    font-family: "FontAwesome";
+    margin-right: 8px;
+    color: #22c55e; /* Bright green */
+    display: none; /* Hidden because we already have icons in the li::before */
+}
+
+.contact-us-footer ul li:nth-child(3) a::before {
+    content: '\f0e0'; /* Email icon */
+    font-family: "FontAwesome";
+    margin-right: 8px;
+    color: #22c55e; /* Bright green */
+    display: none; /* Hidden because we already have icons in the li::before */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .contact-us-footer ul li a {
+        font-size: 15px;
+        padding: 4px 0;
+        display: inline-block;
+    }
 }
 

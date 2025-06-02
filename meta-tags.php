@@ -121,7 +121,7 @@ $meta_tags = get_meta_tags_for_page();
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+<link rel="icon" type="image/png" href="https://www.ewasterecyclersindia.com/images/favicon-32x32.png">
 <!-- Meta Tags -->
 <title><?php echo htmlspecialchars($meta_tags['title']); ?></title>
 <meta name="description" content="<?php echo htmlspecialchars($meta_tags['description']); ?>">
