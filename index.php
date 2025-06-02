@@ -48,12 +48,16 @@
                      <input type="text" id="phone" name="phone" placeholder="Your phone number" required>
                   </div>
                   <div class="form-group">
-                     <select id="service" name="service">
-                        <option value="">Select Service</option>
-                        <option value="E-waste Collection">E-waste Collection</option>
-                        <option value="Secure Data Destruction">Secure Data Destruction</option>
-                        <option value="IT Asset Management">IT Asset Management</option>
-                        <option value="Corporate Recycling">Corporate Recycling</option>
+                     <select id="service" name="service" required>
+                        <option value="" selected disabled>Select Service</option>
+                        <option value="WEEE Recycling">WEEE Recycling</option>
+                        <option value="Reverse Logistics">Reverse Logistics</option>
+                        <option value="Data Destruction">Data Destruction</option>
+                        <option value="Asset Management">Asset Management</option>
+                        <option value="Data Wiping">Data Wiping</option>
+                        <option value="Extended Producer Responsibility">Extended Producer Responsibility</option>
+                        <option value="E-Waste Management">E-Waste Management</option>
+                        <option value="E-Waste Disposal">E-Waste Disposal</option>
                      </select>
                   </div>
                   <div class="form-group">
