@@ -2,7 +2,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-3" data-aos="fade-left" data-aos-duration="1000">
+            <div class="col-3">
                 <div class="footer-heading">
                     <h4>About Us</h4>
                 </div>
@@ -11,7 +11,7 @@
                     environmentally friendly manner.
                 </p>
             </div>
-            <div class="col-3" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-3">
                 <div class="footer-heading">
                     <h4>Quick Links</h4>
                 </div>
@@ -36,7 +36,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-3" data-aos="fade-down" data-aos-duration="1000">
+            <div class="col-3">
                 <div class="footer-heading">
                     <h4>Services</h4>
                 </div>
@@ -51,7 +51,7 @@
                     <li><a href="e-waste-disposal.php">E-Waste Disposal</a></li>
                 </ul>
             </div>
-            <div class="col-3 contact-us-footer" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-3 contact-us-footer">
                 <div class="footer-heading">
                     <h4>Contact Us</h4>
                 </div>

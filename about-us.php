@@ -1,105 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <?php include 'meta-tags.php'; ?>
-      <!-- Slick Slider CSS CDN -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
-      <!-- AOS CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-      <!-- Lightbox CSS -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/styles.css">
-      <!-- Load the Google reCAPTCHA API -->
-      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-   </head>
-   <body>
-      <?php include 'header.php';?>
 
-      <section class="breadcrumb">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1>About Us</h1>
-                </div>
-            </div>
-        </div>
-      </section>
+<head>
+   <?php include 'meta-tags.php'; ?>
+   <!-- Slick Slider CSS CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+   <!-- AOS CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   <!-- Lightbox CSS -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/styles.css">
+   <!-- Load the Google reCAPTCHA API -->
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
 
+<body>
+   <?php include 'header.php'; ?>
 
-      
-      <!-- About Us -->
-      <section class="about-us com-padd">
-         <div class="container">
-            <div class="row">
-               <div class="col-6" data-aos="fade-right" data-aos-duration="1000">
-                  <img src="img/about-inner.jpg" class="about-us-inner-img" alt="Royal Window fashion">
-               </div>
-               <div class="col-6" data-aos="fade-left" data-aos-duration="1000">
-                  <div class="main-heading pb-10">
-                     <h3>Who We Are</h3>
-                  </div>
-                  <p>Royal Window fashion, established in 2009. Today, Royal Window fashion boasts of multiple satisfied and re-energized clients with best manufacturer and is well-known as one of the leading service providers of a wide and appreciable range of Exhibition services. We offer quality assured services which comprises Roller Blinds, Roller Mosquito Net, Turnkey Contractor and other services. These services offered by us encompass everything dat is required for an event to be successfully accomplished. Moreover, with the help of our good financial position we are able to serve our clients with appreciable services data comply with international standards. Our company follows Total Quality Management (TQM) approach so as to ensure optimum quality of our services.</p>
-
-                  <p>Above all, our experienced and knowledgeable mentor plays a vital role in garnering a huge client base and helping us to achieve the heights of success. Our mentor emphasizes a lot on the quality of the services and their timely completion. Moreover, under his guidance we effectively follow ethical and transparent business policies by which we are able to maintain healthy and long-term business relations with our reputed clients. Moreover, our research and development professionals come out with innovative ideas which help us in completing our work in an effective and efficient manner.</p>
-               </div>
+   <section class="breadcrumb">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h1>About Us</h1>
             </div>
          </div>
-      </section>
-      <!-- About Us End -->
-       
-      <section class="miss-sec">
+      </div>
+   </section>
+
+   <!-- About Us -->
+   <section class="about-us com-padd">
       <div class="container">
-            <div class="row">
-               <div class="col-4 bg-2" data-aos="fade-right" data-aos-duration="1000">
-                  <div class="text-area">
-                 <h4>Our Mission</h4>
-                 <p>To be recognized as a leading enterprises company in India, through our services as per customer satisfactions. In order to achieve this vision, our goals are: To continue to provide and develop strong leadership with integrity. To recognise and encourage our employees. To respect the well-being of our workers and protect the environment, maintaining our ‘zero.</p>
-                 </div>
+         <div class="row">
+            <div class="col-6" data-aos="fade-right" data-aos-duration="1000">
+               <img src="img/green-it-about-img.jpg" class="about-us-inner-img" alt="Eco birdd Recycling">
+            </div>
+            <div class="col-6" data-aos="fade-left" data-aos-duration="1000">
+               <div class="main-heading pb-10">
+                  <h3>About Eco birdd Recycling Company Pvt Ltd</h3>
                </div>
-               <div class="col-4 bg-1" data-aos="fade-left" data-aos-duration="1000">
+               <p>Eco-Birdd recycling is India's First Informal to Formal E-waste management Company begun its
+                  operations in 2010, head quartered at Bangalore. We provide End to End solution for all electronic
+                  waste generated in an eco-friendly way and sustainable model. We collect e-waste from PAN India and
+                  managed in Bangalore. Eco-Birdd is cluster of recyclers joined together to form revolutionary tale of
+                  saving the environment.</p>
+
+               <p>Eco – Birdd is authorised form Karnataka State Pollution control board (KSPCB), Govt of Karnataka. And
+                  has guidance from German Development Corporation (GIZ).</p>
+
+               <p>Eco-Birdd is one stop solution under one window for all kind of E-waste management and recycling to
+                  lead the recycling revolution by adopting appropriate technology in obtaining the best out of e-waste
+                  while ensuring protection of nature.</p>
+            </div>
+         </div>
+
+         <div class="row pt-20">
+            <div class="col-12">
+               <p>Our services are focused on conserving the natural resources, providing intellectual property
+                  protection to our customers, facilitating reverse logistics and ensuring 100% recycling of E-waste. At
+                  Eco-birdd, whatever we do is chiefly dictated by our vital objective to Reduce, Reuse and Recycle.
+                  This is why, each of our services is aimed at providing sustainable solutions, both economical and
+                  environmental, that leave a better world for the generations to come.</p>
+
+               <p>Eco Birdd carries out the recovery of precious metals from recycling materials containing them and
+                  which can be used as urgently needed raw material for production processes such as gold, silver. We
+                  not only assure the metals for next generation of computer processors, mobiles, and telephones but
+                  also we safeguard raw-material reserves for the next generation of people.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- About Us End -->
+
+   <section class="miss-sec">
+      <div class="container">
+         <div class="row">
+            <div class="col-4 bg-2" data-aos="fade-right" data-aos-duration="1000">
+               <div class="text-area">
+                  <h4>Our Mission</h4>
+                  <p>To provide responsible e-waste management solutions while conserving valuable resources and
+                     protecting the environment from hazardous materials. We strive to implement best practices in
+                     electronic waste recycling, ensuring zero landfill contribution and maximum recovery of recyclable
+                     materials for a sustainable future.</p>
+               </div>
+            </div>
+            <div class="col-4 bg-1" data-aos="fade-left" data-aos-duration="1000">
                <div class="text-area">
                   <h4>Our Vision</h4>
-                  <p>To be a company committed to “ON TIME & ON BUDGET” delivery, guaranteed performance and offering end-to-end solutions to our customer”</p>
-                  <p>Mission Statement :- We promise to deliver world class engineering services and solutions that exceed customer expectations while earning equitable returns needed to sustain our welfare and environmental surroundings.</p>
-                  </div>
+                  <p>To be India's leading e-waste management company, creating a circular economy where electronic
+                     waste is transformed into valuable resources, ensuring zero waste to landfill and setting new
+                     standards for environmental responsibility in the recycling industry.</p>
                </div>
-               <div class="col-4 bg-2" data-aos="fade-left" data-aos-duration="1000">
+            </div>
+            <div class="col-4 bg-2" data-aos="fade-left" data-aos-duration="1000">
                <div class="text-area">
-                  <h4>Quality, not quantity</h4>
-                  <p>We have made quality our habit. It’s not something that we just strive for – we live by this principle every day.</p>
-                  </div>
+                  <h4>Our Philosophy</h4>
+                  <p>Reduce, Reuse, Recycle - The three pillars that guide all our operations and services. We believe
+                     in providing sustainable solutions that are both economical and environmental, preserving resources
+                     for future generations while protecting today's environment.</p>
                </div>
             </div>
          </div>
-      </section>
+      </div>
+   </section>
 
-      <section class="founder-sec com-padd">
+   <!-- Partners Section -->
+   <section class="partners com-padd bg-5">
       <div class="container">
-            <div class="row">
-               <div class="col-4" data-aos="fade-right" data-aos-duration="1000">
-                     <img src="img/prashant-pawar.jpg" alt="">
-               </div>
-               <div class="col-8" data-aos="fade-left" data-aos-duration="1000">
-                  <h4>Prashant Pawar </h4>
-                  <h6>Founder </h6>
-                  <p>Prashant Pawar is a seasoned entrepreneur with over a decade of experience as the proprietor of Royal Window Fashion. His expertise spans various aspects of the business, including operations, marketing, and customer relations. Under his leadership, Royal Window Fashion has emerged as a prominent player in the industry, known for its quality products and exceptional service. Prashant's strategic vision and innovative approach have driven the company's growth and success over the years. He possesses a keen understanding of market dynamics and consistently adapts to changing trends to stay ahead of the competition. Prashant's commitment to excellence and dedication to customer satisfaction have earned him a reputation as a trusted leader in the window fashion industry. With his wealth of experience and entrepreneurial acumen, he continues to steer Royal Window Fashion towards new heights of achievement.</p>
+         <div class="row">
+            <div class="col-12">
+               <div class="main-heading pb-20 text-center">
+                  <h3>Our Partners & Regulatory Boards</h3>
+                  <p class="text-center">This is a list of boards that we adhere to in our recycling process.</p>
+                  <p class="text-center">Get in touch with us about anything related to our company or services</p>
                </div>
             </div>
          </div>
-      </section>
 
-      <?php include 'footer.php';?>
-      <!-- jQuery (required for Slick Slider) -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <!-- Slick Slider JS CDN -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-      <!-- Lightbox JS -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-       <!-- AOS JS -->
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-      <!-- Custom JS -->
-      <script src="js/script.js"></script>
-   </body>
+         <div class="row">
+            <div class="col-3" data-aos="fade-up" data-aos-duration="1000">
+               <div class="partner-logo">
+                  <img src="https://www.ewasterecyclersindia.com/images/partner2.png" alt="Partner Board">
+               </div>
+            </div>
+            <div class="col-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+               <div class="partner-logo">
+                  <img src="https://www.ewasterecyclersindia.com/images/partner1.png" alt="Partner Board">
+               </div>
+            </div>
+            <div class="col-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+               <div class="partner-logo">
+                  <img src="https://www.ewasterecyclersindia.com/images/partner3.png" alt="Partner Board">
+               </div>
+            </div>
+            <div class="col-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+               <div class="partner-logo">
+                  <img src="https://www.ewasterecyclersindia.com/images/partner4.png" alt="Partner Board">
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <?php include 'footer.php'; ?>
+   <!-- jQuery (required for Slick Slider) -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+   <!-- Slick Slider JS CDN -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+   <!-- Lightbox JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+   <!-- AOS JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+   <!-- Custom JS -->
+   <script src="js/script.js"></script>
+</body>
+
 </html>
