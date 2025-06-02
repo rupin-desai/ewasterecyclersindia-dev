@@ -103,15 +103,17 @@
          </div>
          <div class="row">
             <div class="col-3" data-aos="fade-up" data-aos-duration="1000">
-               <a href="e-waste-collection.php" class="service-link">
+               <a href="weee-recycling.php" class="service-link">
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img src="img/services/ewaste-collection.jpg" class="border-cre" alt="E-waste Collection">
+                           <img
+                              src="https://images.unsplash.com/photo-1550376026-33cbee780def?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                              class="border-cre" alt="WEEE Recycling">
                         </div>
                         <div class="content">
-                           <h4>E-waste Collection</h4>
-                           <p>Convenient pickup and transportation services for all electronic waste.</p>
+                           <h4>WEEE Recycling</h4>
+                           <p>Proper disposal and recycling of all waste electrical and electronic equipment.</p>
                            <span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span>
                         </div>
                      </div>
@@ -124,11 +126,13 @@
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img src="img/services/data-destruction.jpg" class="border-cre" alt="Data Destruction">
+                           <img
+                              src="https://images.unsplash.com/photo-1563770660941-20978e870e26?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                              class="border-cre" alt="Data Destruction">
                         </div>
                         <div class="content">
-                           <h4>Secure Data Destruction</h4>
-                           <p>Safe and certified removal of sensitive information from devices.</p>
+                           <h4>Data Destruction</h4>
+                           <p>Secure elimination of sensitive information stored on electronic devices.</p>
                            <span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span>
                         </div>
                      </div>
@@ -137,15 +141,17 @@
             </div>
 
             <div class="col-3" data-aos="fade-up" data-aos-duration="1000">
-               <a href="it-asset-management.php" class="service-link">
+               <a href="asset-management.php" class="service-link">
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img src="img/services/it-asset.jpg" class="border-cre" alt="IT Asset Management">
+                           <img
+                              src="https://images.unsplash.com/photo-1563019880-1f45b5647a08?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                              class="border-cre" alt="Asset Management">
                         </div>
                         <div class="content">
                            <h4>IT Asset Management</h4>
-                           <p>Complete lifecycle tracking and disposal of corporate IT assets.</p>
+                           <p>Complete lifecycle tracking and management for your technology equipment.</p>
                            <span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span>
                         </div>
                      </div>
@@ -154,15 +160,17 @@
             </div>
 
             <div class="col-3" data-aos="fade-down" data-aos-duration="1000">
-               <a href="corporate-recycling.php" class="service-link">
+               <a href="extended-producer-responsibility.php" class="service-link">
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img src="img/services/corporate-recycling.jpg" class="border-cre" alt="Corporate Recycling">
+                           <img
+                              src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                              class="border-cre" alt="Extended Producer Responsibility">
                         </div>
                         <div class="content">
-                           <h4>Corporate Recycling</h4>
-                           <p>Customized recycling programs for businesses of all sizes.</p>
+                           <h4>EPR Solutions</h4>
+                           <p>Help manufacturers meet legal obligations for end-of-life electronic products.</p>
                            <span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span>
                         </div>
                      </div>

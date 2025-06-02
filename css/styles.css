@@ -140,9 +140,9 @@ img.border-cre{
 }
 
 .cta-button {
-    background-color: #22c55e; /* Bright green buttons */
+    background-color: #16a34a; /* Changed to medium green from #22c55e */
     color: #ffffff;
-    padding: 12px 10px;
+    padding: 12px 24px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -150,6 +150,13 @@ img.border-cre{
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #166534; /* Dark forest green on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 a.cta-button{
@@ -275,8 +282,8 @@ a.w-chat {
 }
 
 .header .cta-button {
-    background-color: #a76e39;
-    color: #16371a;
+    background-color: #16a34a; /* Medium green */
+    color: #ffffff;
     padding: 12px 10px;
     border: none;
     border-radius: 5px;
@@ -285,11 +292,6 @@ a.w-chat {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fefefe;
-}
-
-a.cta-button{
-    text-decoration: none;
 }
 
 /* Dropdown Styling */
@@ -511,7 +513,7 @@ a.cta-button{
 /* Submit Button */
 button[type="submit"] {
     padding: 10px 20px;
-    background-color: #151a40;
+    background-color: #16a34a; /* Changed to medium green from #151a40 */
     color: white;
     border: none;
     border-radius: 5px;
@@ -520,10 +522,11 @@ button[type="submit"] {
     cursor: pointer;
     margin-top: 15px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 button[type="submit"]:hover {
-    background-color: #a76e39;
+    background-color: #166534; /* Dark forest green on hover */
 }
 
 .thank-you{
@@ -760,9 +763,14 @@ img.about-us-inner-img{
     text-align: center;
     display: inline-block;
     padding: 8px 12px;
-    background-color: #22c55e; /* Bright green buttons */
+    background-color: #16a34a; /* Changed to medium green from #22c55e */
     border-radius: 20px;
     font-family: "Montserrat", sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.service-link .services-box .heading-area span.read-more:hover {
+    background-color: #166534; /* Dark forest green on hover */
 }
 
 .icon-list {
@@ -939,7 +947,7 @@ img.about-us-inner-img{
 
 /* Basic button styling */
 .call-action .button {
-    background-color: #a76e39;
+    background-color: #16a34a; /* Changed to medium green from #a76e39 */
     color: white;
     padding: 12px 24px;
     border: none;
@@ -950,11 +958,12 @@ img.about-us-inner-img{
     transition: background-color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
     margin-left: 20px;
-  }
+    display: inline-block;
+}
   
   /* Hover animation */
   .call-action .button:hover {
-    background-color: #3e4095;
+    background-color: #22c55e; /* Bright green on hover */
     transform: scale(1.05);
   }
   
@@ -1239,7 +1248,7 @@ a.blog-card .blog-archive-content p{
 }
 
 a.blog-card .blog-archive-content span{
-    background-color: #a76e39;
+    background-color: #16a34a; /* Changed to medium green from #a76e39 */
     color: #ffffff;
     padding: 12px 10px;
     border: none;
