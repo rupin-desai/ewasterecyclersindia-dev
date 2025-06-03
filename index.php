@@ -18,62 +18,31 @@
 
 <body>
    <?php include 'header.php'; ?>
-   <section class="hero">
-      <div class="w-100">
-         <div class="row m-0">
-            <div class="col-9 p-0">
-               <div class="hero-slider">
-                  <!-- Updated with Unsplash image of circuit boards -->
-                  <div><img
-                        src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="E-waste Circuit Board Recycling"></div>
-                  <div><img
-                        src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="E-waste Circuit Board Recycling"></div>
-                  <div><img
-                        src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="E-waste Circuit Board Recycling"></div>
+   <!-- New Full-Width Hero Section -->
+   <section class="hero-fullwidth">
+      <div class="hero-image">
+         <img
+            src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0"
+            alt="E-waste Circuit Board Recycling">
+         <div class="hero-overlay">
+            <div class="hero-content">
+               <div class="hero-logo">
+                  <img src="https://www.ewasterecyclersindia.com/images/eco-birdd-recycling.png"
+                     alt="Eco birdd Recycling Company Pvt Ltd">
                </div>
-            </div>
-            <div class="col-3">
-               <h3>Request A Quote</h3>
-               <form action="mail-send.php" method="POST">
-                  <div class="form-group">
-                     <input type="text" id="name" name="name" placeholder="Your full name" required>
-                  </div>
-                  <div class="form-group">
-                     <input type="email" id="email" name="email" placeholder="example@example.com" required>
-                  </div>
-                  <div class="form-group">
-                     <input type="text" id="phone" name="phone" placeholder="Your phone number" required>
-                  </div>
-                  <div class="form-group">
-                     <select id="service" name="service" required>
-                        <option value="" selected disabled>Select Service</option>
-                        <option value="WEEE Recycling">WEEE Recycling</option>
-                        <option value="Reverse Logistics">Reverse Logistics</option>
-                        <option value="Data Destruction">Data Destruction</option>
-                        <option value="Asset Management">Asset Management</option>
-                        <option value="Data Wiping">Data Wiping</option>
-                        <option value="Extended Producer Responsibility">Extended Producer Responsibility</option>
-                        <option value="E-Waste Management">E-Waste Management</option>
-                        <option value="E-Waste Disposal">E-Waste Disposal</option>
-                     </select>
-                  </div>
-                  <div class="form-group">
-                     <input type="text" id="location" name="location" placeholder="Your location" required>
-                  </div>
-                  <div class="form-group">
-                     <textarea id="message" name="message" placeholder="Write a message" rows="2"></textarea>
-                  </div>
-                  <div class="g-recaptcha" data-sitekey="6Lf3T2cqAAAAAP3rNJpj6s-rKWbPHi9Hv3YDBFyY"></div>
-                  <div class="form-group">
-                     <button type="submit">Submit</button>
-                  </div>
-               </form>
+               
+               <p>E WASTE RECYCLING, IT ASSET MANAGEMENT, SECURE DATA DRIVE DESTRUCTION</p>
+               <div class="hero-buttons">
+                  <a href="contact-us.php" class="hero-btn primary-btn">Inquire Now</a>
+                  <a href="tel:+917400055174" class="hero-btn secondary-btn"><i class="fa-solid fa-phone"></i> +91
+                     7400055174</a>
+               </div>
             </div>
          </div>
       </div>
+
+      <!-- Add the required styles directly in the page to avoid conflicts -->
+
    </section>
 
    <!-- About Us -->
