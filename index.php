@@ -81,7 +81,7 @@
       <div class="container">
          <div class="row">
             <div class="col-6" data-aos="fade-right" data-aos-duration="1000">
-               <img src="img/about.jpg" alt="About E-waste Recycling" class="border-cre">
+               <img src="/img/image3.webp" alt="About E-waste Recycling" class="border-cre">
             </div>
             <div class="col-6" data-aos="fade-left" data-aos-duration="1000">
                <div class="main-heading pb-10">
@@ -95,6 +95,23 @@
                   environmentally-friendly recycling processes that comply with all regulatory requirements. We are
                   committed to reducing the environmental impact of electronic waste while recovering valuable
                   materials.</p>
+
+               <!-- Key figures section -->
+               <div class="about-key-figures">
+                  <div class="key-figure">
+                     <div class="number">10+</div>
+                     <div class="label">Years Experience</div>
+                  </div>
+                  <div class="key-figure">
+                     <div class="number">5000+</div>
+                     <div class="label">Happy Clients</div>
+                  </div>
+                  <div class="key-figure">
+                     <div class="number">25+</div>
+                     <div class="label">Cities Covered</div>
+                  </div>
+               </div>
+
                <div class="main-btn">
                   <a href="about-us.php" class="cta-button">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                </div>
