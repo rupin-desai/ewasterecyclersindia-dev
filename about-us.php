@@ -34,7 +34,7 @@
       <div class="container">
          <div class="row">
             <div class="col-6" data-aos="fade-right" data-aos-duration="1000">
-               <img src="img/green-it-about-img.jpg" class="about-us-inner-img" alt="Eco birdd Recycling">
+               <img src="img/image0.webp" class="about-us-inner-img" alt="Eco birdd Recycling">
             </div>
             <div class="col-6" data-aos="fade-left" data-aos-duration="1000">
                <div class="main-heading pb-10">
@@ -73,29 +73,50 @@
    </section>
    <!-- About Us End -->
 
-   <section class="miss-sec">
+   <!-- Modern Mission Vision Philosophy Cards -->
+   <section class="mvp-section com-padd bg-3">
       <div class="container">
          <div class="row">
-            <div class="col-4 bg-2" data-aos="fade-right" data-aos-duration="1000">
-               <div class="text-area">
-                  <h4>Our Mission</h4>
+            <div class="col-12">
+               <div class="main-heading text-center pb-20">
+                  <h4>What Guides Us</h4>
+                  <h3>Our Purpose & Principles</h3>
+               </div>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
+               <div class="mvp-card">
+                  <div class="mvp-icon">
+                     <i class="fas fa-bullseye"></i>
+                  </div>
+                  <h3>Our Mission</h3>
                   <p>To provide responsible e-waste management solutions while conserving valuable resources and
                      protecting the environment from hazardous materials. We strive to implement best practices in
                      electronic waste recycling, ensuring zero landfill contribution and maximum recovery of recyclable
                      materials for a sustainable future.</p>
                </div>
             </div>
-            <div class="col-4 bg-1" data-aos="fade-left" data-aos-duration="1000">
-               <div class="text-area">
-                  <h4>Our Vision</h4>
+
+            <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+               <div class="mvp-card">
+                  <div class="mvp-icon">
+                     <i class="fas fa-eye"></i>
+                  </div>
+                  <h3>Our Vision</h3>
                   <p>To be India's leading e-waste management company, creating a circular economy where electronic
                      waste is transformed into valuable resources, ensuring zero waste to landfill and setting new
                      standards for environmental responsibility in the recycling industry.</p>
                </div>
             </div>
-            <div class="col-4 bg-2" data-aos="fade-left" data-aos-duration="1000">
-               <div class="text-area">
-                  <h4>Our Philosophy</h4>
+
+            <div class="col-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+               <div class="mvp-card">
+                  <div class="mvp-icon">
+                     <i class="fas fa-sync-alt"></i>
+                  </div>
+                  <h3>Our Philosophy</h3>
                   <p>Reduce, Reuse, Recycle - The three pillars that guide all our operations and services. We believe
                      in providing sustainable solutions that are both economical and environmental, preserving resources
                      for future generations while protecting today's environment.</p>
@@ -105,15 +126,17 @@
       </div>
    </section>
 
-   <!-- Partners Section -->
-   <section class="partners com-padd bg-5">
+   <!-- Partners Section - Enhanced -->
+   <section class="partners-enhanced com-padd bg-5">
       <div class="container">
          <div class="row">
             <div class="col-12">
-               <div class="main-heading pb-20 text-center">
+               <div class="main-heading text-center pb-30">
+                  <h4>Working Together</h4>
                   <h3>Our Partners & Regulatory Boards</h3>
-                  <p class="text-center">This is a list of boards that we adhere to in our recycling process.</p>
-                  <p class="text-center">Get in touch with us about anything related to our company or services</p>
+                  <p class="text-center mx-auto">We adhere to strict regulatory standards in our recycling process,
+                     working with recognized industry authorities to ensure environmental compliance and best practices.
+                  </p>
                </div>
             </div>
          </div>
