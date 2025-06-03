@@ -143,9 +143,7 @@
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img
-                              src="https://images.unsplash.com/photo-1550376026-33cbee780def?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                              class="border-cre" alt="WEEE Recycling">
+                           <img src="/img/image0.webp" class="border-cre" alt="WEEE Recycling">
                         </div>
                         <div class="content">
                            <h4>WEEE Recycling</h4>
@@ -162,9 +160,7 @@
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img
-                              src="https://images.unsplash.com/photo-1563770660941-20978e870e26?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                              class="border-cre" alt="Data Destruction">
+                           <img src="/img/image1.webp" class="border-cre" alt="Data Destruction">
                         </div>
                         <div class="content">
                            <h4>Data Destruction</h4>
@@ -177,17 +173,15 @@
             </div>
 
             <div class="col-3" data-aos="fade-up" data-aos-duration="1000">
-               <a href="asset-management.php" class="service-link">
+               <a href="data-wiping.php" class="service-link">
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img
-                              src="https://images.unsplash.com/photo-1563019880-1f45b5647a08?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                              class="border-cre" alt="Asset Management">
+                           <img src="/img/image2.webp" class="border-cre" alt="Data Wiping">
                         </div>
                         <div class="content">
-                           <h4>IT Asset Management</h4>
-                           <p>Complete lifecycle tracking and management for your technology equipment.</p>
+                           <h4>Data Wiping</h4>
+                           <p>Secure erasure of digital data while preserving equipment for reuse or resale.</p>
                            <span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span>
                         </div>
                      </div>
@@ -196,17 +190,16 @@
             </div>
 
             <div class="col-3" data-aos="fade-down" data-aos-duration="1000">
-               <a href="extended-producer-responsibility.php" class="service-link">
+               <a href="e-waste-management.php" class="service-link">
                   <div class="services-box">
                      <div class="heading-area">
                         <div class="icon">
-                           <img
-                              src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                              class="border-cre" alt="Extended Producer Responsibility">
+                           <img src="/img/image9.webp" class="border-cre" alt="E-Waste Management">
                         </div>
                         <div class="content">
-                           <h4>EPR Solutions</h4>
-                           <p>Help manufacturers meet legal obligations for end-of-life electronic products.</p>
+                           <h4>E-Waste Management</h4>
+                           <p>End-to-end solutions for the entire electronic waste lifecycle with regulatory compliance.
+                           </p>
                            <span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span>
                         </div>
                      </div>

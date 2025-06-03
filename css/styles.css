@@ -908,329 +908,162 @@ button[type="submit"]:hover {
     text-decoration: none;
 }
 
-.services .video-container{
-    margin-top: 15px;
-}
+/* Updated Services Cards Styling */
 
-
-.services-inner ul li {
-    list-style: none;
-    padding-bottom: 5px;
-    position: relative;
-    padding-left: 30px;
-    line-height: 1.5;
-}
-
-.services-inner ul li::before{
-    content: "\f192";
-    color: #16371a;
-    left: 0px;
-    font-family: "FontAwesome";
-    position: absolute;
-}
-
-.services-inner ul li:last-child{
-    padding-bottom: 0px;
-}
-
-.services .types-slider{
-    padding: 15px;
-    width: 100%;
-}
-
-.services .types-slider div {
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.services-box{
-    position: relative;
-    height: 100%;
-}
-
-.services-box img{
+/* Service link container */
+.services-home a.service-link {
+    text-decoration: none;
     display: block;
+    height: 100%;
+    padding-top: 0; /* Remove the original padding */
 }
 
-.specification{
-    align-items: center;
-    justify-content: center;
+/* Main services box container */
+.services-box {
+    background-color: #ffffff;
+    border-radius: 16px; /* Large rounded corners */
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
 }
 
-.specification h3{
-    padding-bottom: 10px;
+.services-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(22, 101, 52, 0.15);
 }
 
+/* Image container */
+.services-box .icon {
+    height: 200px; /* Fixed height for all images */
+    overflow: hidden;
+}
 
+/* Image styling */
+.services-box .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0; /* Only round the top corners */
+    transition: transform 0.6s ease;
+}
 
+.services-box:hover .icon img {
+    transform: scale(1.05);
+}
+
+/* Remove the curved border from the image */
+.services-box .icon img.border-cre {
+    border-radius: 16px 16px 0 0; /* Override the original rounded top */
+}
+
+/* Content section */
 .services-box .content {
-    background-color: #166534; /* Dark green background for service boxes */
-    text-align: center;
+    background-color: #ffffff; /* White background instead of dark green */
+    padding: 25px;
+    border-top: 4px solid #16a34a; /* Green accent border */
+    text-align: left; /* Left-aligned text */
+    display: block;
+    position: relative;
+    height: calc(100% - 200px); /* Account for the image height */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px;
 }
 
-
+/* Heading styling */
 .services-box .heading-area h4 {
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    font-style: italic;
-    color: #ffffff;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-
-.services-box .heading-area p {
-    text-align: center;
-    font-size: 16px;
-    color: #ffffff;
+    color: #064e3b; /* Dark green text */
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-style: normal; /* Remove italic */
+    position: relative;
     padding-bottom: 15px;
 }
 
+/* Underline for headings */
+.services-box .heading-area h4:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background-color: #16a34a; /* Green underline */
+}
+
+/* Paragraph styling */
+.services-box .heading-area p {
+    color: #4b5563; /* Dark gray text */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Allow text to push the button to the bottom */
+}
+
+/* Read more button styling */
 .service-link .services-box .heading-area span.read-more {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     text-align: center;
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: #16a34a; /* Changed to medium green from #22c55e */
-    border-radius: 20px;
-    font-family: "Montserrat", sans-serif;
-    transition: background-color 0.3s ease;
-}
-
-.service-link .services-box .heading-area span.read-more:hover {
-    background-color: #166534; /* Dark forest green on hover */
-}
-
-.icon-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Ensures even spacing */
-    gap: 20px; /* Space between items */
-    padding: 20px 0px;
-}
-
-.item {
-    flex: 1 1 calc(25% - 20px); /* Makes each item take up 25% of the container width */
-    text-align: center;
-}
-
-.icon-list .icon img {
-    width: 80px; /* Adjust size as needed */
-    height: auto;
-}
-
-.icon-list h5 {
-    margin-top: 0px;
-    font-size: 16px;
-    color: #a76e39;
-}
-
-.videos-services h4 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 26px;
-    font-weight: 800;
-    color: #16371a;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.seo-text{
-    color: #ffffff;
-        font-family: "Montserrat", sans-serif;
-
-    text-align: center;
-    padding: 10px;
-    margin: 20px 0px;
-}
-
-.seo-text h2{
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.seo-text a.w-chat i {
-    padding-right: 10px;
-}
-
-.seo-text a.w-chat {
-    background-color: #25d366;
-    color: #ffffff;
-    padding: 5px 20px;
-    border-radius: 16px;
-    text-decoration: none;
     display: inline-flex;
-    margin-top: 12px;
-    line-height: 15px;
-}
-
-.form-sec{
-    padding: 30px 0px;
-    margin: 20px 0px;
-}
-/* Services End */
-
-/* why choose */
-
-.why-choose{
-    padding-top: 30px;
-}
-
-.why-choose-box{
-    text-align: center;
-}
-
-.why-choose-box .icon-box {
-    background-color: #a76e39;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #16a34a;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top: auto; /* Push to bottom of flex container */
 }
 
-.why-choose-box .icon-box img{
-    width: 80px;
-    height: 80px;
+.service-link .services-box .heading-area span.read-more i {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
 }
 
-.why-choose-box .heading-area h4{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    padding: 10px 0px;
-    color: #3e4095;
+.service-link:hover .services-box .heading-area span.read-more {
+    background-color: #064e3b;
 }
 
-.why-choose-box .heading-area p{
-    font-size: 15px;
+.service-link:hover .services-box .heading-area span.read-more i {
+    transform: translateX(5px);
 }
 
-.iso-text h3{
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    color: #ffffff;
-    padding: 10px 0px;
-    text-align: center;
+/* Equal spacing between service cards */
+.services-home .col-3 {
+    padding: 15px;
 }
 
-/* why choose end */
-
-/* clients */
-
-.clients-slider{
-    display: flex;
-    padding-top: 20px;
+/* Main section styling */
+.services-home {
+    padding: 80px 0;
 }
 
-.clients-slider .item{
-    -webkit-box-shadow: 0 5px 11px 0 rgb(62 79 101 / 11%);
-    box-shadow: 0 5px 11px 0 rgb(62 79 101 / 11%);
-    transition: transform 0.3sease, box-shadow 0.3sease;
+/* Section heading improvements */
+.services-home .main-heading {
+    margin-bottom: 20px;
 }
 
-.clients-slider img{
-    width: 100%;
-    height: auto;
+/* Responsive adjustments */
+@media only screen and (max-width: 992px) {
+    .services-home .col-3 {
+        width: 50%;
+    }
 }
 
-.clients-slider .slick-slide {
-    margin: 0 10px; /* Adjust the value for spacing */
-}
-.clients-slider .slick-list {
-    margin: 0 -10px; /* To prevent overflow issues */
-}
-
-/* clients end */
-
-/* call-action */
-
-.call-action {
-    padding: 90px 0px;
-    text-align: center;
-    background-image: url(../img/bg-1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.call-action .row{
-    align-items: center;
-    justify-content: center;
-}
-
-.call-action h3{
-    font-family: "Montserrat", sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-}
-
-.call-action p{
-    font-size: 20px;
-    color: #ffffff;
-}
-
-/* Basic button styling */
-.call-action .button {
-    background-color: #16a34a; /* Changed to medium green from #a76e39 */
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 5px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    text-decoration: none;
-    margin-left: 20px;
-    display: inline-block;
-}
-  
-  /* Hover animation */
-  .call-action .button:hover {
-    background-color: #22c55e; /* Bright green on hover */
-    transform: scale(1.05);
-  }
-  
-  /* Optional: Active state to add depth on click */
-  .call-action .button:active {
-    transform: scale(0.98);
-  }
-
-/* call-action end */
-
-/* gallery */
-
-.gallery .col-3{
-    padding-top: 20px;
-}
-
-
-.gallery .col-4{
-    padding-top: 20px;
-}
-
-.gallery p.caption {
-    background-color: #b09229;
-    color: #ffffff;
-    text-align: center;
-    padding: 5px 0px;
-    font-size: 16px;
-    font-weight: 700;
+@media only screen and (max-width: 768px) {
+    .services-home .col-3 {
+        width: 100%;
+        padding: 10px 15px;
+    }
+    
+    .services-home .col-3 + .col-3 {
+        margin-top: 20px;
+    }
+    
+    .services-box .icon {
+        height: 180px;
+    }
 }
 
 /* Testimonials */
@@ -1471,7 +1304,7 @@ button[type="submit"]:hover {
 a.blog-card  {
     background-color: #ffffff;
     -webkit-box-shadow: 0 5px 11px 0 rgb(62 79 101 / 11%);
-    box-shadow: 0 5px 11px 0 rgb(62 79 101 / 11%);
+    box-shadow: 0 5px 11px 0 rgb(62, 79, 101, 0.11);
     margin-bottom: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: block;
@@ -2296,5 +2129,58 @@ footer{
 
 .contact-us button[type="submit"]:hover {
     background-color: #166534; /* Darker green on hover */
+}
+
+/* Call to Action Original Styles */
+.call-action {
+    padding: 90px 0px;
+    text-align: center;
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.call-action .row {
+    align-items: center;
+    justify-content: center;
+}
+
+.call-action h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.call-action p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.call-action .button {
+    background-color: #16a34a;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+}
+  
+.call-action .button:hover {
+    background-color: #22c55e;
+    transform: scale(1.05);
+}
+
+.call-action .button:active {
+    transform: scale(0.98);
 }
 
